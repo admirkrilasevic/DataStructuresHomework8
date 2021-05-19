@@ -42,7 +42,7 @@ public class Main {
 		HeapSort.sort(ipAddresses);
 		
     System.out.println("Sorted. Time elapsed: " + ((System.currentTimeMillis() - start)/1000));
-    //average sorting time: 
+    //average sorting time: 7.2 seconds - faster than radix sort, but slower than merge and quick
     System.out.println("Writing to file...");
 
 		FileWriter writer = new FileWriter("src/sortedwithheap.csv");
